@@ -7,7 +7,7 @@ SJSU - CS 235 Mid Term – Code Development Problem
 A Rotation Manipulator with a Moveable Pivot Point (Centre of Rotation)
 In this problem, you will complete implementation of a new type of rotation manipulator with adjustable pivot point. For a demo, please see provided video.
 
-####Basic Functionality
+#### Basic Functionality
 
 ```For this application, the basic functionality can be described as follows:
 • The user can rotate an image using the purple handle. The handle can move anywhere in the window.
@@ -23,4 +23,4 @@ The student will complete development of the manipulator by implementing just th
 
 2. Implement rotation about the pivot point by dragging the purple handle. Hint: consider the vector created by the rotator handle and the pivot point when the mouse goes down. Moving the rotator handle creates a new vector. The angle between the two vectors is the angle of rotation. The direction of the rotation can be determined using the cross product.
 
-3. Implement the pivot move functionality. Hint: You can set the pivot (in object space) using Image::setPivot(). To go from screen space (the space that the handle is in) to image space, use the function provided in Image class. Set the pivot only once on mouse up. You must also translate image to the new screen space pivot point after. 
+3. Implement the pivot move functionality. Hint: You can set the pivot (in object space) using Image::setPivot(). To go from screen space (the space that the handle is in) to image space, use the function provided in Image class. Set the pivot only once on mouse up. You must also translate image to the new screen space pivot point after.
